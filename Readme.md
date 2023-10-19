@@ -4,12 +4,7 @@ This Python script is used for training a neural network with a single hidden la
 
 ## Prerequisites
 
-Make sure you have the necessary Python libraries installed. You can install them using pip:
-
-```bash
-pip install numpy argparse
-```
-
+Make sure you have the necessary Python libraries installed.
 ## Usage
 
 To run the script, execute the following command:
@@ -38,13 +33,6 @@ The script will output the training process with detailed information for each i
 
 The neural network aims to learn the patterns in the training data to minimize the error and make predictions.
 
-## Example
-
-Here is an example command to run the script:
-
-```bash
-python neural_network_training.py --data data.csv --iterations 1000 --eta 0.1
-```
 
 This will train the neural network with the data from `data.csv` for 1000 iterations using a learning rate of 0.1.
 
